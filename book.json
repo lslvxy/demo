@@ -1,0 +1,10 @@
+{
+    "title" : "前端组件说明文档",
+    "description" : "前端组件说明文档",
+    "author" : "ls",
+    "generator": "site",
+   "plugins": [
+        "-search",
+        "-include-codeblock"
+    ]
+}
