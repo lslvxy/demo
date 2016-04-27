@@ -1,6 +1,11 @@
 
 # 配置
 ---
+##  period
+
+月选择器，默认为false
+
+设置为true则提供会计期间的yyyy-mm格式的月份选择器
 
 ## format
 
@@ -143,19 +148,5 @@ Date or String. 默认值: new Date()
 
 You can initialize the viewer with a date. By default it's now, so you can specify yesterday or today at midnight ...
 
-##  period
 
-月选择器，默认为false
 
-设置为true则提供会计期间的yyyy-mm格式的月份选择器
-
-## icon
-
-图标，默认为false，
-
-设置为true则在input后面添加一个图标，此时input标签需要用div包起来，
-```
-<div class="input-group">
-   <input type="text" class="text-s form-control" id="year_select">
-</div>
-```

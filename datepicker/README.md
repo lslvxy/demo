@@ -1,3 +1,5 @@
+官方网站: [http://www.bootcss.com/p/bootstrap-datetimepicker/](http://www.bootcss.com/p/bootstrap-datetimepicker/)
+
 # 使用
 
 绑定输入框，并设置format选项：

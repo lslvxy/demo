@@ -4,6 +4,8 @@
 
 SeaJS本身遵循KISS（Keep It Simple, Stupid）理念进行开发，其本身仅有个位数的API，因此学习起来毫无压力。在学习SeaJS的过程中，处处能感受到KISS原则的精髓——仅做一件事，做好一件事。
 
+官方网站:[http://seajs.org](http://seajs.org)
+
 * [seajs.config](./seajs.config.md#map)
 seajs配置项
 

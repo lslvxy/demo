@@ -11,6 +11,7 @@
 |getSelections|none|返回选择的内容|[getSelections](http://issues.wenzhixin.net.cn/bootstrap-table/#methods/getSelections.html)|
 |getAllSelections|none|返回选择全部的内容.|[getAllSelections](http://issues.wenzhixin.net.cn/bootstrap-table/#methods/getAllSelections.html)|
 |getData|useCurrentPage|返回当前页的数据.|[getData](http://issues.wenzhixin.net.cn/bootstrap-table/#methods/getData.html)|
+|getRow|index|通过index查询一行数据||
 |getRowByUniqueId|id|通过id查询一行数据|[getRowByUniqueId](http://issues.wenzhixin.net.cn/bootstrap-table/#methods/getRowByUniqueId.html)|
 |load|data|load 数据|[load](http://issues.wenzhixin.net.cn/bootstrap-table/#methods/load.html)|
 |remove|params|删除一行数据|[remove](http://issues.wenzhixin.net.cn/bootstrap-table/#methods/remove.html)|
