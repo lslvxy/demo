@@ -5,3 +5,6 @@
 * [select2](select/README.md) 下拉框组件
 * [doTjs](dot/README.md) 模版组件
 * [ui.area](area/README.md) 地区组件
+* [bootbox](bootbox/README.md) dialog及alert组件
+* [PNotify](pnotify/README.md) 消息提示组件
+
