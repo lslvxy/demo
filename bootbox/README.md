@@ -1,5 +1,35 @@
 ### 提示弹框 
 
+
+推荐使用 UI (UI的封装主要是为了兼容以前的旧代码,以及统一调用格式,类似java中的接口)
+
+```
+UI.alert('message');	//默认弹窗(等同`bootbox.alert(message) `)
+
+UI.alert(options,callback);	//options:配置项,callback 回调函数
+
+UI.confirm(options, callback, callbackNo); //options为String或者object,callback确定触发,callbackNo 取消触发
+
+UI.dialog(options); //弹窗配置
+
+
+```
+
+```
+UI.dialog({
+        title: '新建窗口',  //标题
+        message: 'xxxxx',   //内容(String | Element) 字符串或者页面元素
+        buttons:[{			// 按钮组
+            text: '确定',
+            'class': 'btn-default',
+            click: function() {
+            }
+        }, {
+            text: '取消'
+        }]
+    });
+```
+
 * 默认 
 
 `bootbox.alert(message) `

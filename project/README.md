@@ -1,26 +1,8 @@
 ```
---staticresource
-	--javascripts //js以及模块化文件,按照模块划分
-		--module1
-		--module2
-		–...
-	--stylesheets //css文件,按照模块划分
-		--common.css
-		--module1
-		--module2
-		–...
-	--images  //图片文件,按照模块划分
-		--module1
-		--module2
-		–..
-	--libs  //第三方库组件
-		--bootstrap
-		--select2
-		–...
-	--views  //视图文件,按照模块划分
-		--module1
-		--module2
-		–…
-	--fonts  //字体文件,一般不需要修改	
-
+--webapp  //项目根目录
+	--modulename  //模块根目录(名称为模块名)
+		--js //js文件夹
+		--css //css文件夹
+		--images  //图片文件夹
+		--index.html //模块首页
 ```

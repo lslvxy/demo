@@ -21,4 +21,4 @@
 * [ui.area](area/README.md)
 * [bootbox](bootbox/README.md) dialog及alert组件
 * [PNotify](pnotify/README.md) 消息提示组件
-* [项目结构说明](project/README.md)
+* [模块结构说明](project/README.md)
