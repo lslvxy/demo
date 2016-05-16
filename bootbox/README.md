@@ -8,7 +8,8 @@ UI.alert('message');	//默认弹窗(等同`bootbox.alert(message) `)
 
 UI.alert(options,callback);	//options:配置项,callback 回调函数
 
-UI.confirm(options, callback, callbackNo); //options为String或者object,callback确定触发,callbackNo 取消触发
+UI.confirm(options, callback, callbackNo); //options为String或者object,
+										  //callback确定触发,callbackNo 取消触发
 
 UI.dialog(options); //弹窗配置
 
