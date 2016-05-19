@@ -11,25 +11,52 @@ UI.alert(options,callback);	//options:配置项,callback 回调函数
 UI.confirm(options, callback, callbackNo); //options为String或者object,
 										  //callback确定触发,callbackNo 取消触发
 
-UI.dialog(options); //弹窗配置
-
-
 ```
 
+Dialog使用说明
+
 ```
-UI.dialog({
-        title: '新建窗口',  //标题
-        message: 'xxxxx',   //内容(String | Element) 字符串或者页面元素
-        buttons:[{			// 按钮组
-            text: '确定',
-            'class': 'btn-default',
-            click: function() {
+seajs.use(['jquery','bootbox'],function($,bootbox){
+    var dialog=bootbox.dialog({
+            message:'message',
+            size:'small',
+            buttons: {
+                success: {
+                  label: "Success!",
+                  className: "btn-success",
+                  callback: function() {
+                    Example.show("great success");
+                  }
+                },
+                danger: {
+                  label: "Danger!",
+                  className: "btn-danger",
+                  callback: function() {
+                    Example.show("uh oh, look out!");
+                  }
+                },
+                main: {
+                  label: "Click ME!",
+                  className: "btn-primary",
+                  callback: function() {
+                    Example.show("Primary button");
+                  }
+                }
             }
-        }, {
-            text: '取消'
-        }]
-    });
+        });
+//附加方法:
+dialog.show();
+dialog.hide();
+dialog.setTitle('title');//设置title
+dialog.setMessage('message');//设置内容
+dialog.setClosable(true/false);//设置关闭按钮
+});
+
 ```
+
+
+
+
 
 * 默认 
 
