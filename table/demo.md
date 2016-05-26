@@ -45,7 +45,7 @@ $('#table').bootstrapTable({
     {
         title: '操作',
         width: 200,
-        formatter: function operateFormatter(value, row, index) {
+        formatter: function (value, row, index) {
             return ['<a class="like" href="javascript:void(0)" title="Like">',
             '关注',
             '</a>  ',
