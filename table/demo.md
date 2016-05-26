@@ -14,10 +14,10 @@ $('#table').bootstrapTable({
     pagination: true,
     sidePagination: 'server',
     queryParams: function(params) {
-        return {
-            accountPeriod: '2016-03',
-            customerId: ''
-        };
+        //params包含了分页的参数,只需将自定义的参数添加到params中
+        params.accountPeriod='2016-03';
+        params.customerId='';
+        return params;
     },
     checkbox: true,
     showColumns: false,
