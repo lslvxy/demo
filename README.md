@@ -1,4 +1,5 @@
 本文档主要介绍系统中各个组件的使用方法以及示例代码
+* [开发环境搭建](project/README.md) 开发环境搭建
 * [SeaJs](seajs/README.md)  CMD框架,系统主要组件
 * [bootstrapTable](table/README.md)  表格组件
 * [datepicker](datepicker/README.md) 时间选择器

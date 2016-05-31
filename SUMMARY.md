@@ -1,4 +1,5 @@
 
+* [开发环境搭建](project/README.md) 开发环境搭建
 * [SeaJs](seajs/README.md)
   * [seajs.config](seajs/seajs.config.md)
   * [seajs.use](seajs/seajs.use.md)
